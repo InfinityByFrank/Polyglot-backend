@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Task data (your local test tasks)
+task.json
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
+
+.obsidian
+
+doc
