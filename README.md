@@ -1,4 +1,4 @@
-# backend-lab
+# Polyglot-backend
 
 Backend projects from [roadmap.sh](https://roadmap.sh/backend/projects), built step by step from beginner to advanced, in **Node.js, Java, Python and Rust**.
 
@@ -16,7 +16,8 @@ I'm using this repository to master backend development and to learn the languag
 
 | # | Project | Level | Node.js | Java | Python | Rust |
 |---|---------|-------|:-------:|:----:|:------:|:----:|
-| 01 | [Task Tracker](https://roadmap.sh/projects/task-tracker) | Beginner | [✅](./node/Task%20Tracker/README.md) | ⬜ | ⬜ | ⬜ |
+| 01 | [Task Tracker](https://roadmap.sh/projects/task-tracker) | Beginner | [✅](./node/task-tracker/README.md) | ⬜ | ⬜ | ⬜ |
+| 02 | [GitHub User Activity](https://roadmap.sh/projects/github-user-activity) | Beginner | [✅](./node/github-user-activity/README.md) | ⬜ | ⬜ | ⬜ |
 
 ✅ done · 🚧 in progress · ⬜ not started
 
@@ -25,9 +26,10 @@ More projects will be added as I complete them.
 ## Repository structure
 
 ```
-backend-lab/
+Polyglot-backend/
 ├── node/
-│   └── 01-task-tracker/
+│   ├── task-tracker/
+│   └── github-user-activity/
 ├── java/
 ├── python/
 ├── rust/
