@@ -19,8 +19,9 @@ This project is a solution to the [Task Tracker](https://roadmap.sh/projects/tas
 ## Installation
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>/node/01-task-tracker
+git clone https://github.com/InfinityByFrank/Polyglot-backend
+cd Polyglot-backend/node/task-tracker
+node index.js <command>
 ```
 
 No `npm install` needed: the project only uses Node's built-in modules (`node:fs/promises`).
