@@ -18,6 +18,7 @@ I'm using this repository to master backend development and to learn the languag
 |---|---------|-------|:-------:|:----:|:------:|:----:|
 | 01 | [Task Tracker](https://roadmap.sh/projects/task-tracker) | Beginner | [✅](./node/task-tracker/README.md) | ⬜ | ⬜ | ⬜ |
 | 02 | [GitHub User Activity](https://roadmap.sh/projects/github-user-activity) | Beginner | [✅](./node/github-user-activity/README.md) | ⬜ | ⬜ | ⬜ |
+| 03 | [Expense Tracker](https://roadmap.sh/projects/expense-tracker) | Beginner | [✅](./node/expense-tracker/README.md) | ⬜ | ⬜ | ⬜ |
 
 ✅ done · 🚧 in progress · ⬜ not started
 
@@ -29,11 +30,13 @@ More projects will be added as I complete them.
 Polyglot-backend/
 ├── node/
 │   ├── task-tracker/
-│   └── github-user-activity/
+│   ├── github-user-activity/
+│   └── expense-tracker/
 ├── java/
 ├── python/
 ├── rust/
 ├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
