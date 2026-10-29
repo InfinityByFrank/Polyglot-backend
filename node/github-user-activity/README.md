@@ -21,7 +21,7 @@ This project is based on the [GitHub User Activity](https://roadmap.sh/projects/
 ```bash
 git clone https://github.com/InfinityByFrank/Polyglot-backend
 cd Polyglot-backend/node/github-user-activity
-npx tsx index.ts InfinityByFrank --type=PushEvent
+node index.ts <command>
 ```
 
 ### Optional: use it as a global command
@@ -51,27 +51,20 @@ npm unlink -g github-activity
 ## Usage
 
 ```bash
-github-activity <username> [--type=<EventType>]
-```
-
-If you haven't linked the command, you can run it directly:
-
-```bash
-node dist/index.js <username> [--type=<EventType>]
-```
+node index.ts <username> [--type=<EventType>]
 
 ### Examples
 
 Show the latest activity for a user:
 
 ```bash
-github-activity InfinityByFrank
+node index.ts InfinityByFrank
 ```
 
 Show only push events:
 
 ```bash
-github-activity InfinityByFrank --type=PushEvent
+node index.ts InfinityByFrank --type=PushEvent
 ```
 
 ### Sample output
