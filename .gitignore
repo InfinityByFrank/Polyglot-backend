@@ -3,6 +3,7 @@ node_modules/
 
 # Task data (your local test tasks)
 task.json
+expenses.json
 
 # Environment variables and secrets
 .env
